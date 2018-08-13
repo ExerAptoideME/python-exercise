@@ -4,8 +4,7 @@
 The present code represents a simple webAPI based on the Flask web framework that reports a list of strings from a list based on the initial characters of a string.
 
 ### Prerequisites
-To run the present applicaition
-
+To run the present application:
 ```
 Linux Server
 Postman (or other method of executing HTTP requests)
