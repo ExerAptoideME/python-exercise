@@ -10,6 +10,7 @@ Linux Server
 Postman (or other method of executing HTTP requests)
 List of apps in csv format (strings)
 ```
+
 ### Installing
 As specified, this application must run on a linux machine. For this reason, a virtual environment was created with the OS ubuntu 18. The application was also developed with the help of virtualenv.
 
@@ -49,10 +50,10 @@ On a local server application, the host is 127.1.1.1 on port 6000.
 To run in standalone, please uncomment the following code line present in the 
 app.py file: app.run(host="127.1.1.1", port=6000, debug=True, load_dotenv=True)
 
-#### GET
+#### GET on '/'
 A GET method was implemented that returns the full list of apps that was loaded into the application.
 
-#### POST
+#### POST on '/output'
 A POST method was also implemented that receives a JSON input with the characters that will allow the strings search:
 
 ```
