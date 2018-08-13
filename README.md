@@ -3,8 +3,22 @@
 ## Summary
 The present code represents a simple webAPI based on the Flask web framework that reports a list of strings from a list based on the initial characters of a string.
 
+### Prerequisites
+To run the present applicaition
 
-### Requirements
+```
+Linux Server
+Postman (or other method of executing HTTP requests)
+```
+
+### Installing
+As specified, this application must run on a linux machine. For this reason, a virtual environment was created with the OS ubuntu 18.
+The application was also developed with the help of virtualenv.
+
+For deployment, simply copy the files in the repo to the desired location, install the requirements, and run the application by simply running the app.py script.
+
+
+#### Requirements
 This web service has the following dependencies:
 
 * aniso8601==3.0.2
@@ -25,10 +39,6 @@ To install the required modules:
   
 For HTTP requests, Postman was used.
 
-### Deployment
-As specified, this application must run on a linux machine. For deployment, simple copy the files in the repo to the desired location, install the requirements, and run the application by simply running the app.py script.
-
-The development of this app was made using ubuntu 18.
 
 
 ### Tests
