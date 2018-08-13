@@ -39,6 +39,16 @@ To install the required modules:
   
 For HTTP requests, Postman was used.
 
+#### Running the application
+The applications sends and recieves JSON files.
+
+A GET method was implemented that returns the full list of apps that was loaded into the application.
+A POST method was also implemented that receives a JSON input with the characters that will allow the strings search:
+'''
+{
+'prefix':"Fac"
+}
+'''
 
 
 ### Tests
