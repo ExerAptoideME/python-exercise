@@ -39,7 +39,10 @@ To install the required modules:
 For HTTP requests, Postman was used.
 
 ## Running the application
-The applications sends and recieves JSON files.
+The application sends and recieves JSON files.
+
+To run in standalone, please uncomment the following code line present in the 
+app.py file: app.run(host="127.1.1.1", port=6000, debug=True, load_dotenv=True)
 
 #### GET
 A GET method was implemented that returns the full list of apps that was loaded into the application.
@@ -52,11 +55,17 @@ A POST method was also implemented that receives a JSON input with the character
 'prefix':"Fac"
 }
 ```
-
 The result is then:
-
+{
+    "results": [
+        "Facebook",
+        "Facebook Lite",
+        "Facebook Pages Manager"
+    ],
+    "total": 3
+}
 
 
 ## Tests
-A simple test was implemented using unittest
+A simple test was implemented using unittest.
 
