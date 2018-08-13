@@ -16,6 +16,8 @@ As specified, this application must run on a linux machine. For this reason, a v
 
 For deployment, simply copy the files in the repo to the desired location, install the requirements, and run the application by simply running the app.py script with line 36 of the script uncommented (app.run(host="127.1.1.1", port=6000, debug=True, load_dotenv=True)).
 
+For search purposes, the pygtrie modukes was used to quickly implement a Trie data structure into the project.
+
 The apps list in cvs should be on the same folder as the app.py script. The filename/path is specified on line 13 of app.py:
 ```
 applist = load.loader('190titles.csv')
