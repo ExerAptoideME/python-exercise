@@ -61,6 +61,8 @@ A POST method was also implemented that receives a JSON input with the character
 }
 ```
 The result is then:
+
+```
 {
     "results": [
         "Facebook",
@@ -69,7 +71,7 @@ The result is then:
     ],
     "total": 3
 }
-
+```
 
 ## Tests
 A simple test was implemented using unittest.
