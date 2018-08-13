@@ -1,4 +1,4 @@
-# python-exercise - atocomplete with Trie
+# python-exercise - autocomplete with Trie
 
 ## Summary
 The present code represents a simple webAPI based on the Flask web framework that reports a list of strings from a list based on the initial characters of a string.
