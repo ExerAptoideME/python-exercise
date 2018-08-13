@@ -41,7 +41,10 @@ For HTTP requests, Postman was used.
 ## Running the application
 The applications sends and recieves JSON files.
 
+#### GET
 A GET method was implemented that returns the full list of apps that was loaded into the application.
+
+#### POST
 A POST method was also implemented that receives a JSON input with the characters that will allow the strings search:
 
 ```
@@ -49,6 +52,10 @@ A POST method was also implemented that receives a JSON input with the character
 'prefix':"Fac"
 }
 ```
+
+The result is then:
+
+
 
 ## Tests
 A simple test was implemented using unittest
