@@ -12,11 +12,8 @@ class Apptest(unittest.TestCase):
 	def test_client(self):
 		response = self.client.get('/')
 		return "Result: " + str(response)
-		#self.assertFalse(response.isnull())
-
 
 	def test_can_get_suggestions(self):
-		"""Test can get all suggestions for a given prefix."""
 		question = "{ \"prefix\" : \"Fac\" }"
 		# response = self.client.post('/output?q=Fac')
 		response = self.client.post(question)
